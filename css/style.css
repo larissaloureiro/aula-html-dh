@@ -1,0 +1,217 @@
+.container {
+  background-color: #eeccff;
+  width: 70%;
+  margin-left: 15%;
+  /* background-image: url(../img/cancun-dicas.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  background-image: linear-gradient(90deg, orchid, lightblue, aquamarine); */
+}
+
+img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* cabeçalho da página */
+.header {
+  background-image: linear-gradient(90deg, orchid, lightblue, aquamarine);
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+/* menu inicio da pagina */
+.nav-bar ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: navy;
+  padding-left: 19%;
+}
+
+.nav-bar li {
+  float: left;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Alegreya Sans SC", "Baloo 2", "Ubuntu", Verdana, sans-serif;
+}
+
+.nav-bar li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;
+  display: inline-block;
+}
+
+.nav-bar li a:hover {
+  background-color: purple;
+  color: white;
+}
+
+/* banner */
+.banner img {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.resorts {
+  margin-top: 25px;
+  padding: 5px;
+  font-family: "Baloo 2", "Ubuntu", Verdana, sans-serif;
+  
+}
+
+.resorts header {
+  text-align: center;
+  color: purple;
+  font-size: 25pt;
+  font-family: "Alegreya Sans SC", "Baloo 2", "Ubuntu", Verdana, sans-serif;
+}
+
+.resorts arcticle {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resorts p {
+  padding: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+/* cards resorts */
+.column {
+  float: left;
+  width: 28%;
+  height: 240px;
+  padding: 20px;
+  margin: 2% 0 2% 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.img-card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+}
+
+.banner-card {
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+  background-color: purple;
+  font-family: "Alegreya Sans SC", "Baloo 2", "Ubuntu", Verdana, sans-serif;
+}
+
+.banner-card a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  color:white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* reserva */
+.reserva{
+  background-image: linear-gradient(orchid, lightblue, aquamarine);
+  height: 215px;
+}
+
+.reserva h3{
+  font-family: "Baloo 2", "Ubuntu", Verdana, sans-serif;
+  text-align: center;
+  font-size: 25pt;
+  /* color: purple; */
+  padding: 35px 0;
+}
+
+.reserva button{
+  background-color: navy;
+  padding: 20px 26px;
+  color: white;
+  font-size: 20pt;
+  border-color: lightblue;
+  border-radius: 8px 0;
+  margin-bottom: 20px;
+  margin-left: 40%;
+}
+
+.reserva button a{
+ text-decoration: none;
+ color: white;
+ font-family: "Alegreya Sans SC", "Baloo 2", "Ubuntu", Verdana, sans-serif;
+ letter-spacing: 2px;
+}
+
+.reserva button:hover{
+  background-color: purple;
+  border-color: orchid;
+  color:white;
+}
+
+ /* rodape da página*/
+.footer{
+  margin-top: 5px;
+  padding: 15px;
+  background-color: navy;
+  color: white;
+  text-align: center;
+ }
+
+.logo-footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  margin-top: 15px;
+}
+
+.footer li{
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  padding: 15px 20px;
+  font-family: "Alegreya Sans SC", "Baloo 2", "Ubuntu", Verdana, sans-serif;
+  letter-spacing: 2px;
+}
+
+.footer ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.footer li a{
+  color:white;
+  text-decoration: none;
+}
+
+.footer li a:hover{
+  color:lightblue;
+}
+
+.footer hr{
+  background-color: lightblue;
+}
+
+.creditos{
+  font-family: "Baloo 2", "Ubuntu", Verdana, sans-serif;
+  margin-top: 2%;
+}
